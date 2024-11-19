@@ -1,5 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-/* You can add global styles to this file, and also import other style files */
 * {
   box-sizing: border-box;
 }
@@ -10,7 +9,9 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: radial-gradient(circle at top left, #181023, #0b0519);
+  background:  radial-gradient(circle at top left, #181023, #9395D3 );
+/*radial-gradient(circle at top left, #181023, #0b0519);*/
+/*  background: #9395D3;*/
   color: #c3b3d8;
   margin: 0;
   padding: 0;

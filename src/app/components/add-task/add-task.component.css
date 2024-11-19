@@ -1,11 +1,4 @@
 
-
-
-
-
-
-
-
 .add-task-container {
   display: flex;
   gap: 10px;
@@ -19,7 +12,7 @@
 }
 .add-btn {
   padding: 8px 16px;
-  background-color: #4CAF50;
+  background-color: #318f33;
   color: white;
   border: none;
   border-radius: 4px;
