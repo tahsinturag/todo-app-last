@@ -1,5 +1,8 @@
 # TodoApp
 
+## DEMO
+![Screenshot from 2024-11-19 15-12-12](https://github.com/user-attachments/assets/0386d548-83e3-4dab-b271-ee6e261a63b1)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
 
 ## Development server
