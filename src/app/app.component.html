@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Todo List</h1>
+  <app-search-bar
+    (searchChange)="onSearch($event)"
+  ></app-search-bar>
+  <app-add-task
+    (taskAdd)="onAddTask($event)"
+  ></app-add-task>
+  <app-task-list
+    [tasks]="filteredTasks"
+    (statusUpdate)="onStatusUpdate($event)"
+    (descriptionUpdate)="onDescriptionUpdate($event)"
+    (deleteTask)="onDeleteTask($event)"
+  ></app-task-list>
+</div>

@@ -1,0 +1,19 @@
+<header>
+<!--  <img src="assets/task-management-logo.png" alt="A list image"/>-->
+  <div>
+    <h1>List your task here</h1>
+  </div>
+</header>
+
+
+
+
+<div class="add-task-container">
+  <input
+    type="text"
+    [(ngModel)]="newTaskDescription"
+    placeholder="Enter new task..."
+    class="form-control"
+  />
+  <button (click)="addTask()" class="add-btn">Add Task</button>
+</div>

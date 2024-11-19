@@ -1,0 +1,9 @@
+<div class="task-list">
+  <app-task-item
+    *ngFor="let task of tasks"
+    [task]="task"
+    (statusUpdate)="onStatusUpdate($event)"
+    (descriptionUpdate)="onDescriptionUpdate($event)"
+    (deleteTask)="onDeleteTask($event)"
+  ></app-task-item>
+</div>

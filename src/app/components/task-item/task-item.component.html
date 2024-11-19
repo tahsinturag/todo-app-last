@@ -1,0 +1,25 @@
+<div class="task-item">
+  <div class="task-content" *ngIf="!isEditing">
+    {{ task.description }}
+  </div>
+  <input
+    *ngIf="isEditing"
+    [(ngModel)]="editedDescription"
+    class="edit-input"
+    (blur)="updateDescription()"
+  />
+  <div class="task-actions">
+    <select
+      [(ngModel)]="task.status"
+      (change)="onStatusChange()"
+      class="status-select"
+    >
+      <option value="Pending">Pending</option>
+      <option value="Doing">Doing</option>
+    </select>
+    <button (click)="toggleEdit()" class="edit-btn">
+      {{ isEditing ? 'Save' : 'Edit' }}
+    </button>
+    <button (click)="onDelete()" class="delete-btn">Delete</button>
+  </div>
+</div>
